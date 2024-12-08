@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbf6f6;
+    color: #070707;
+}
+
+header {
+    background-color: #050233;
+    color: rgb(249, 248, 248);
+    padding: 10px;
+    text-align: center;
+}
+
+#site-title {
+    margin: 0;
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#reviews-container {
+    margin-top: 20px;
+}
+
+.review {
+    background-color: rgb(244, 243, 245);
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #043234;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#team-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.team-member {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.header-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.header-icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fbfbfc;
+    font-weight: bold;
+}
+.split-container {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-section {
+    flex: 1;
+    background-color: #2874f0; /* Flipkart blue */
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-section {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #050233;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #050233;
+}
+
+p a {
+    color: #2874f0;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background: url('images/banner.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+}
+/* Position social icons in the top-left corner */
+.social-icons {
+    position: absolute;
+    top: 10px; /* Adjust spacing as needed */
+    left: 10px; /* Adjust spacing as needed */
+    display: flex;
+    gap: 10px; /* Space between icons */
+}
+
+/* Style for individual links (icons) */
+.social-icons a {
+    text-decoration: none;
+    color: #fffbfb; /* Adjust color as needed */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Hover effect for social icons */
+.social-icons a:hover {
+    color: #fcfcfc;
+}
+.social-icons img {
+    width: 30px; /* Adjust to desired size */
+    height: 30px; /* Adjust to desired size */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+.social-icons {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Space between icons */
+    overflow: hidden; /* Prevent overflow */
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}

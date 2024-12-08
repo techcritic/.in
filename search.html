@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Critic - Search Reviews</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Search Product Reviews</h1>
+        <a href="/index.html" class="home-btn">Home</a>
+    </header>
+
+    <section>
+        <form id="search-form">
+            <label for="search">Search for a Product:</label>
+            <input type="text" id="search" name="search" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+        <div id="search-results">
+            <!-- Search results will be injected here -->
+        </div>
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #319ee7, #c46de9);
+        text-align: center;
+        padding-top: 50px;
+    }
+    .container {
+        max-width: 400px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>

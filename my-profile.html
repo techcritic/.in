@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #319ee7, #2ecc71);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-container {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 400px;
+        }
+        h1 {
+            color: #2e70b1;
+            margin-bottom: 20px;
+        }
+        .profile-info p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #fff;
+            background: #3498db;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>My Profile</h1>
+        <div class="profile-info">
+            <p><strong>Username:</strong> <span id="username">Unknown User</span></p>
+            <p><strong>Email:</strong> <span id="email">No Email Provided</span></p>
+        </div>
+        <a href="#" class="btn" onclick="changePassword()">Change Password</a>
+        <a href="/user-login.html" class="btn">Logout</a>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+const username = params.get('username');
+const email = params.get('email');
+
+document.getElementById('username').textContent = username || 'Unknown User';
+document.getElementById('email').textContent = email || 'No Email Provided';
+
+
+        function changePassword() {
+            alert('Change Password functionality coming soon!');
+        }
+    </script>
+</body>
+</html>
